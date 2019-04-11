@@ -1,0 +1,601 @@
+Script started on Thu 11 Apr 2019 10:06:37 AM PDT
+stanton@CF165-14:~$ cd csci241/
+stanton@CF165-14:~/csci241$ git clone https://github.com/CSCI241Spring2019/lab-1 -Nick-Stanton
+Cloning into 'lab-1-Nick-Stanton'...
+error: key does not contain a section: name
+error: key does not contain a section: email
+error: key does not contain a section: name
+error: key does not contain a section: email
+error: key does not contain a section: name
+error: key does not contain a section: email
+error: key does not contain a section: name
+error: key does not contain a section: email
+error: key does not contain a section: name
+error: key does not contain a section: email
+remote: Enumerating objects: 8, done.[K
+remote: Counting objects:  12% (1/8)   [Kremote: Counting objects:  25% (2/8)   [Kremote: Counting objects:  37% (3/8)   [Kremote: Counting objects:  50% (4/8)   [Kremote: Counting objects:  62% (5/8)   [Kremote: Counting objects:  75% (6/8)   [Kremote: Counting objects:  87% (7/8)   [Kremote: Counting objects: 100% (8/8)   [Kremote: Counting objects: 100% (8/8), done.[K
+remote: Compressing objects:  25% (1/4)   [Kremote: Compressing objects:  50% (2/4)   [Kremote: Compressing objects:  75% (3/4)   [Kremote: Compressing objects: 100% (4/4)   [Kremote: Compressing objects: 100% (4/4), done.[K
+remote: Total 8 (delta 0), reused 8 (delta 0), pack-reused 0[K
+error: key does not contain a section: name
+error: key does not contain a section: email
+Unpacking objects:  12% (1/8)   Unpacking objects:  25% (2/8)   Unpacking objects:  37% (3/8)   Unpacking objects:  50% (4/8)   Unpacking objects:  62% (5/8)   Unpacking objects:  75% (6/8)   Unpacking objects:  87% (7/8)   Unpacking objects: 100% (8/8)   Unpacking objects: 100% (8/8), done.
+Checking connectivity... error: key does not contain a section: name
+error: key does not contain a section: email
+done.
+error: key does not contain a section: name
+error: key does not contain a section: email
+error: key does not contain a section: name
+error: key does not contain a section: email
+stanton@CF165-14:~/csci241$ git config --global [K user.name "Nick Stat[Knton"
+error: key does not contain a section: name
+error: key does not contain a section: email
+stanton@CF165-14:~/csci241$ git config --global [K user.email stanton[K[K[K[K[K[K[Knik[Kckstanton0213[K4@gmail .com
+error: key does not contain a section: name
+error: key does not contain a section: email
+stanton@CF165-14:~/csci241$ cd lab-1-Nick-Stanton/
+stanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ touch writeup.txt
+stanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ gt[Kit add we[Krt[Kiteup.txt
+error: key does not contain a section: name
+error: key does not contain a section: email
+stanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ git commit -m "Added empty wrie[Kteu p"
+error: key does not contain a section: name
+error: key does not contain a section: email
+[master d90a5bb] Added empty writeup
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 writeup.txt
+stanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ git push
+error: key does not contain a section: name
+error: key does not contain a section: email
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+error: key does not contain a section: name
+error: key does not contain a section: email
+Username for 'https://github.com': Nick0 -Stanton
+Password for 'https://Nick-Stanton@github.com': 
+error: key does not contain a section: name
+error: key does not contain a section: email
+error: key does not contain a section: name
+error: key does not contain a section: email
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 324 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/CSCI241Spring2019/lab-1-Nick-Stanton
+   1523c09..d90a5bb  master -> master
+stanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ git add writeup.txt 
+error: key does not contain a section: name
+error: key does not contain a section: email
+stanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ git commi [Kt -m "Added part 1 (name  s[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce s) to writeup"
+error: key does not contain a section: name
+error: key does not contain a section: email
+[master da6fa7c] Added part 1 (names) to writeup
+ 1 file changed, 1 insertion(+)
+stanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ git status
+error: key does not contain a section: name
+error: key does not contain a section: email
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+stanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ git add writeup.txt 
+error: key does not contain a section: name
+error: key does not contain a section: email
+stanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ git status
+error: key does not contain a section: name
+error: key does not contain a section: email
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   writeup.txt[m
+
+stanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ git commit -m "Added part 2 (hobb y) to writeup"
+error: key does not contain a section: name
+error: key does not contain a section: email
+[master 033bc38] Added part 2 (hobby) to writeup
+ 1 file changed, 1 insertion(+)
+stanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ git status
+error: key does not contain a section: name
+error: key does not contain a section: email
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+stanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ git push
+error: key does not contain a section: name
+error: key does not contain a section: email
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+error: key does not contain a section: name
+error: key does not contain a section: email
+fatal: unable to access 'https://github.com/CSCI241Spring2019/lab-1-Nick-Stanton/': Could not resolve host: github.com
+stanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ git push
+error: key does not contain a section: name
+error: key does not contain a section: email
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+error: key does not contain a section: name
+error: key does not contain a section: email
+fatal: unable to access 'https://github.com/CSCI241Spring2019/lab-1-Nick-Stanton/': Could not resolve host: github.com
+stanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ gt[Kit add writeup.txt 
+error: key does not contain a section: name
+error: key does not contain a section: email
+stanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ git commit -m "Addde [K[K[Ked part 2 (hobb y) to writeyo[K[Kup"
+error: key does not contain a section: name
+error: key does not contain a section: email
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+stanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ git push
+error: key does not contain a section: name
+error: key does not contain a section: email
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+error: key does not contain a section: name
+error: key does not contain a section: email
+Username for 'https://github.com': Nick0 -Stanton
+Password for 'https://Nick-Stanton@github.com': 
+error: key does not contain a section: name
+error: key does not contain a section: email
+error: key does not contain a section: name
+error: key does not contain a section: email
+Counting objects: 6, done.
+Delta compression using up to 8 threads.
+Compressing objects:  25% (1/4)   Compressing objects:  50% (2/4)   Compressing objects:  75% (3/4)   Compressing objects: 100% (4/4)   Compressing objects: 100% (4/4), done.
+Writing objects:  16% (1/6)   Writing objects:  33% (2/6)   Writing objects:  50% (3/6)   Writing objects:  66% (4/6)   Writing objects:  83% (5/6)   Writing objects: 100% (6/6)   Writing objects: 100% (6/6), 571 bytes | 0 bytes/s, done.
+Total 6 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 1 local object.[K
+To https://github.com/CSCI241Spring2019/lab-1-Nick-Stanton
+   d90a5bb..033bc38  master -> master
+stanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ git status
+error: key does not contain a section: name
+error: key does not contain a section: email
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+stanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ touch username.txt
+stanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ git add username.txt 
+error: key does not contain a section: name
+error: key does not contain a section: email
+stanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ git commit -m "Added username.txt "
+error: key does not contain a section: name
+error: key does not contain a section: email
+[master 77c90f3] Added username.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 username.txt
+stanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ git push
+error: key does not contain a section: name
+error: key does not contain a section: email
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+error: key does not contain a section: name
+error: key does not contain a section: email
+Username for 'https://github.com': Nick0 -Stanton
+Password for 'https://Nick-Stanton@github.com': 
+error: key does not contain a section: name
+error: key does not contain a section: email
+error: key does not contain a section: name
+error: key does not contain a section: email
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 379 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/CSCI241Spring2019/lab-1-Nick-Stanton
+   033bc38..77c90f3  master -> master
+stanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ git checj[Kkour[Kt
+error: key does not contain a section: name
+error: key does not contain a section: email
+Your branch is up-to-date with 'origin/master'.
+stanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ git reset
+error: key does not contain a section: name
+error: key does not contain a section: email
+stanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ git touch f[Kdummy [Kfile [K.txt
+error: key does not contain a section: name
+error: key does not contain a section: email
+error: key does not contain a section: name
+error: key does not contain a section: email
+git: 'touch' is not a git command. See 'git --help'.
+stanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ touch dummygil[K[K[Kfile.txt
+stanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ git rm dummyfile.txt 
+error: key does not contain a section: name
+error: key does not contain a section: email
+fatal: pathspec 'dummyfile.txt' did not match any files
+stanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ git mv f[Kdummyfile.txt  dumb.txt
+error: key does not contain a section: name
+error: key does not contain a section: email
+fatal: not under version control, source=dummyfile.txt, destination=dumb.txt
+stanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ git blame
+error: key does not contain a section: name
+error: key does not contain a section: email
+usage: git blame [<options>] [<rev-opts>] [<rev>] [--] <file>
+
+    <rev-opts> are documented in git-rev-list(1)
+
+    --incremental         Show blame entries as we find them, incrementally
+    -b                    Show blank SHA-1 for boundary commits (Default: off)
+    --root                Do not treat root commits as boundaries (Default: off)
+    --show-stats          Show work cost statistics
+    --score-debug         Show output score for blame entries
+    -f, --show-name       Show original filename (Default: auto)
+    -n, --show-number     Show original linenumber (Default: off)
+    -p, --porcelain       Show in a format designed for machine consumption
+    --line-porcelain      Show porcelain format with per-line commit information
+    -c                    Use the same output mode as git-annotate (Default: off)
+    -t                    Show raw timestamp (Default: off)
+    -l                    Show long commit SHA1 (Default: off)
+    -s                    Suppress author name and timestamp (Default: off)
+    -e, --show-email      Show author email instead of name (Default: off)
+    -w                    Ignore whitespace differences
+    --minimal             Spend extra cycles to find better match
+    -S <file>             Use revisions from <file> instead of calling git-rev-list
+    --contents <file>     Use <file>'s contents as the final image
+    -C[<score>]           Find line copies within and across files
+    -M[<score>]           Find line movements within and across files
+    -L <n,m>              Process only line range n,m, counting from 1
+    --abbrev[=<n>]        use <n> digits to display SHA-1s
+
+stanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ git lof[Kg
+error: key does not contain a section: name
+error: key does not contain a section: email
+[?1h=[33mcommit 77c90f33cd886414d6c7da30558bfb05b8345996[m[m
+Author: Nick Stanton <nickstanton0214@gmail.com>[m
+Date:   Thu Apr 11 10:23:49 2019 -0700[m
+[m
+    Added username.txt[m
+[m
+[33mcommit 033bc387baa5b2adb2a41b103b615dfafa775895[m[m
+Author: Nick Stanton <nickstanton0214@gmail.com>[m
+Date:   Thu Apr 11 10:18:06 2019 -0700[m
+[m
+    Added part 2 (hobby) to writeup[m
+[m
+[33mcommit da6fa7c1ad0771d7827a98ccb77818b3128de909[m[m
+Author: Nick Stanton <nickstanton0214@gmail.com>[m
+Date:   Thu Apr 11 10:14:59 2019 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit d90a5bbbddd9b86568a642a378c0a354c9d8bea1[m[m
+Author: Nick Stanton <nickstanton0214@gmail.com>[m
+Date:   Thu Apr 11 10:10:48 2019 -0700[m
+[m
+    Added empty writeup[m
+:[K[K[m
+:[K[K:[K[K[?1l>stanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ git checkout -b question3
+error: key does not contain a section: name
+error: key does not contain a section: email
+Switched to a new branch 'question3'
+stanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ git add writeup.txt 
+error: key does not contain a section: name
+error: key does not contain a section: email
+stanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ git commit -m a[K"added part 3 (favo rite song) to writeup"
+error: key does not contain a section: name
+error: key does not contain a section: email
+[question3 f2cf70c] added part 3 (favorite song) to writeup
+ 1 file changed, 1 insertion(+)
+stanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ git push origin question3
+error: key does not contain a section: name
+error: key does not contain a section: email
+error: key does not contain a section: name
+error: key does not contain a section: email
+Username for 'https://github.com': B NickS -Stanton
+Password for 'https://Nick-Stanton@github.com': 
+error: key does not contain a section: name
+error: key does not contain a section: email
+error: key does not contain a section: name
+error: key does not contain a section: email
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 342 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+remote: 
+remote: Create a pull request for 'question3' on GitHub by visiting:[K
+remote:      https://github.com/CSCI241Spring2019/lab-1-Nick-Stanton/pull/new/question3[K
+remote: 
+To https://github.com/CSCI241Spring2019/lab-1-Nick-Stanton
+ * [new branch]      question3 -> question3
+stanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ git cheko[K[Kckout master
+error: key does not contain a section: name
+error: key does not contain a section: email
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+stanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ git merge question3
+error: key does not contain a section: name
+error: key does not contain a section: email
+Updating 77c90f3..f2cf70c
+Fast-forward
+error: key does not contain a section: name
+error: key does not contain a section: email
+ writeup.txt | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+stanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ git brack [K[K[Kmch [K[K[K[Knch -d question3
+error: key does not contain a section: name
+error: key does not contain a section: email
+Deleted branch question3 (was f2cf70c).
+stanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ cd sec[K[Kre[Kc/main/java.[K/lab1
+stanton@CF165-14:~/csci241/lab-1-Nick-Stanton/src/main/java/lab1$ ls
+Hello.java
+stanton@CF165-14:~/csci241/lab-1-Nick-Stanton/src/main/java/lab1$ gradle build
+[0m
+Welcome to Gradle 5.0!
+
+Here are the highlights of this release:
+ - Kotlin DSL 1.0
+ - Task timeouts
+ - Dependency alignment aka BOM support
+ - Interactive `gradle init`
+
+For more details see https://docs.gradle.org/5.0/release-notes.html
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+
+[2A[1B[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A> IDLE[0K[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[0K[35D[1B[1m> Loading projects[m[0K[18D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[0K[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[0K[33D[1B> IDLE[0K[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :buildEnvironment[m[19D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :buildEnvironment[m[19D[1B[2A[0K
+[1m> Task :buildEnvironment[m
+
+[1m------------------------------------------------------------[m
+[1mRoot project[m
+[1m------------------------------------------------------------[m
+
+[32mclasspath[39m
+[33mNo dependencies[39m
+
+A web-based, searchable dependency report is available by adding the [1m--scan[m option.
+
+[32;1mBUILD SUCCESSFUL[0;39m in 3s
+1 actionable task: 1 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :buildEnvironment[m[19D[1B[2A[2K[1B[2K[1A[0mstanton@CF165-14:~/csci241/lab-1-Nick-Stanton/src/main/java/lab1$ gradke [K[K[Kle run
+[0m
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Task 'run' not found in root project 'lab1'.
+
+* Try:
+Run [1mgradle tasks[m to get a list of available tasks. Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 0s
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0mstanton@CF165-14:~/csci241/lab-1-Nick-Stanton/src/main/java/lab1$ git [K[K[Kradle build
+[0m
+
+[1A[1m> Connecting to Daemon[m[22D[1B[2A
+[1m> Task :buildEnvironment[m
+
+[1m------------------------------------------------------------[m
+[1mRoot project[m
+[1m------------------------------------------------------------[m
+
+[32mclasspath[39m
+[33mNo dependencies[39m
+
+A web-based, searchable dependency report is available by adding the [1m--scan[m option.
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+1 actionable task: 1 executed
+
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> Connecting to Daemon[m[22D[1B[2A[2K[1B[2K[1A[0mstanton@CF165-14:~/csci241/lab-1-Nick-Stanton/src/main/java/lab1$ git [K[K[Kradle run
+[0m
+
+[1A[1m> Connecting to Daemon[m[22D[1B[2A
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Task 'run' not found in root project 'lab1'.
+
+* Try:
+Run [1mgradle tasks[m to get a list of available tasks. Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 0s
+
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> Connecting to Daemon[m[22D[1B[2A[2K[1B[2K[1A[0mstanton@CF165-14:~/csci241/lab-1-Nick-Stanton/src/main/java/lab1$ cd
+stanton@CF165-14:~$ cd s=cs[K[K[K[Kcsci241/lab-1-Nick-Stanton/
+stanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ gradle run
+[0m
+
+[1A[1m> Connecting to Daemon[m[22D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project > Compiling /home/stanton/csci241/lab-1-Nick-Stanton/build.gradl[m[79D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project > Compiling /home/stanton/csci241/lab-1-Nick-Stanton/build.gradl[m[79D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[0K[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [0s][m[37D[1B> IDLE[0K[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[0K[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[0K
+[1m> Task :run[m[0K
+Hello World!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 1s
+2 actionable tasks: 2 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :compileJava[m[14D[1B[2A[2K[1B[2K[1A[0mstanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ gradle build
+[0m
+[1A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [0s][m[37D[1B
+[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[0K[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1m===[0;39;1m----------> 28% EXECUTING [0s][m[34D[1B[1m> :startScripts[m[15D[1B[2A[1m<[0;32;1m===[0;39;1m----------> 28% EXECUTING [0s][m[34D[1B[1m> :startScripts[m[15D[1B[2A[1m<[0;32;1m===[0;39;1m----------> 28% EXECUTING [0s][m[34D[1B[1m> :startScripts[m[15D[1B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+5 actionable tasks: 5 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :startScripts[m[15D[1B[2A[2K[1B[2K[1A[0mstanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ gradke [K[K[Kle run --args="241"
+[0m
+[1A
+[1m> Task :run[m
+Hello 241
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0mstanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ gradke [K[K[Kle build
+[0m
+
+[2A[1m<[0;32;1m====[0;39;1m---------> 35% EXECUTING [0s][m[34D[1B[1m> :distTar[m[10D[1B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+5 actionable tasks: 4 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :distTar[m[10D[1B[2A[2K[1B[2K[1A[0mstanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ grae[K[Kd[Kadle run --args="241"
+[0m
+[1A
+[1m> Task :run[m
+Hello 241!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0mstanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ git add src/main/java/lab1/Hello.jjava 
+error: key does not contain a section: name
+error: key does not contain a section: email
+stanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ git commit -m "Hello now prints c ommand line arg"
+error: key does not contain a section: name
+error: key does not contain a section: email
+[master 8c2c77d] Hello now prints command line arg
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+stanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ git push
+error: key does not contain a section: name
+error: key does not contain a section: email
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+error: key does not contain a section: name
+error: key does not contain a section: email
+Username for 'https://github.com': Nicl k-Stanton
+Password for 'https://Nick-Stanton@github.com': 
+error: key does not contain a section: name
+error: key does not contain a section: email
+error: key does not contain a section: name
+error: key does not contain a section: email
+Counting objects: 7, done.
+Delta compression using up to 8 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  14% (1/7)   Writing objects:  28% (2/7)   Writing objects:  42% (3/7)   Writing objects:  57% (4/7)   Writing objects:  71% (5/7)   Writing objects:  85% (6/7)   Writing objects: 100% (7/7)   Writing objects: 100% (7/7), 501 bytes | 0 bytes/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To https://github.com/CSCI241Spring2019/lab-1-Nick-Stanton
+   77c90f3..8c2c77d  master -> master
+stanton@CF165-14:~/csci241/lab-1-Nick-Stanton$ exit
+exit
+
+Script done on Thu 11 Apr 2019 10:45:15 AM PDT
